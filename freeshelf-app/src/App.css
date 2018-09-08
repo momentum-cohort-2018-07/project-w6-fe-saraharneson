@@ -9,12 +9,16 @@ body {
 }
 
 .singleBook {
-  width: 100%;  
+  width: 90%;
+  margin-top: 18px;  
 }
 
 .App {
-  text-align: center;
-  margin: 0 auto;
+  /* text-align: center; */
+  margin: 20px;
+  /* font-size: 1rem; */
+  line-height: 1.15rem;
+  font-size: .8rem;
 }
 
 .App-header {
@@ -26,12 +30,59 @@ body {
 
 .App-title {
   font-size: 1.5em;
+  margin-bottom: 8px;
 }
 
 .App-intro {
   font-size: large;
 }
 
-.bookImage {
-  width: 100px;
+.bookTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
+
+.bookAuthor {
+  font-size: 1.15rem;
+  font-style: italic;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.bookImage {
+  float: right;
+  width: 100px;
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.bookUrl {
+  font-size: .75rem;
+
+}
+
+.category {
+  display: inline;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: .8rem;
+  letter-spacing: -.25px;
+}
+
+
+
+
+/* 
+
+.singleBook
+.bookTitle
+.bookImage 
+.coverImageUrl
+.bookAuthor
+.bookShort
+.bookMoreInfo 
+  .bookUrl
+  
+.category */

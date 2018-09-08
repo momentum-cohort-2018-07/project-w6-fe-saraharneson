@@ -1,15 +1,25 @@
 import React, { Component } from 'react'
+import request from 'superagent'
 import 'bulma/css/bulma.css'
 import './App.css'
-import books from './books.json'
+// import books from './books.json'
 import BookEntry from './BookEntry'
 
 class App extends Component {
   constructor () {
     super()
     this.state = {
-      books: books
+      books: []
     }
+  }
+
+  componentDidMount () {
+    request.get('http://localhost:4000/books')
+      .then(res => {
+        this.setState({
+          books: res.body
+        })
+      })
   }
 
   render () {
