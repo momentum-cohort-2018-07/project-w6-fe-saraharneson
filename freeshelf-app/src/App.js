@@ -25,6 +25,11 @@ class App extends Component {
   render () {
     return (
       <div className='App'>
+        <div className='app-header'>
+          <h1 className='app-title'>freeshelf</h1>
+          <h1 className='app-subtitle'>treat yo'self!</h1>
+
+        </div>
         {this.state.books.map((book, idx) =>
           <BookEntry
             key={idx}
