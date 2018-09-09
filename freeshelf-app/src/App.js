@@ -26,9 +26,9 @@ class App extends Component {
     return (
       <div className='App'>
         <div className='app-header'>
+          <img src='./books-banner.jpg' />
+          <h3 className='app-kicker-title'>Treat yo'self! It's</h3>
           <h1 className='app-title'>freeshelf</h1>
-          <h1 className='app-subtitle'>treat yo'self!</h1>
-
         </div>
         {this.state.books.map((book, idx) =>
           <BookEntry

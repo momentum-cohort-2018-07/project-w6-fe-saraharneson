@@ -9,28 +9,47 @@ body {
 }
 
 .app-header {
-  background-color: #222;
+  /* background-color: #222; */
   height: 150px;
+  width: 100%;
+  margin: 0 auto;
+  /* position: relative;
+  background-size: cover;
+  background-position: center center; */
+  overflow: hidden;
 }
+
+/* .app-header img {
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+} */
 
 .app-title {
-  padding: 40px 0 15px 0;
+  position: absolute;
+  background-color: black;
+  padding: 20px 0 15px 0;
+  width: 100%;
   text-align: center;
   color: white;
-  font-size: 3rem;
-  line-height: 3.5rem;
+  font-size: 4rem;
+  line-height: 3.75rem;
+  font-weight: 100;
 }
 
-.app-subtitle {
-  padding: 15px 0 5px 0;
-  font-size: 2.5rem;
+/* .app-kicker-title {
+  padding: 0 0 5px 0;
+  font-size: 1.5rem;
   text-align: center;
   color: white;
-}
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1rem;
+} */
 
 .App {
   /* text-align: center; */
-  margin: 20px;
+  /* margin: 20px; */
   /* font-size: 1rem; */
   line-height: 1.15rem;
   font-size: .8rem;
@@ -39,7 +58,7 @@ body {
 .singleBook {
   display: block;
   width: 90%;
-  margin-top: 24px; 
+  margin: 24px 0 5px; 
 }
 
 /* .App-title {
