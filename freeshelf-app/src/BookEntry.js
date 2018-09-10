@@ -25,15 +25,13 @@ class BookEntry extends Component {
 
   render () {
     return (
-      <div className='singleBook'>
-        <div className='bookImage column'> <img src={this.props.coverImageUrl} alt='book' onError={i => { i.target.style.display = 'none' }} />
+      <div className='singleBook columns'>
+        <div className='column bookImage'> <img src={this.props.coverImageUrl} alt='book' onError={i => { i.target.style.display = 'none' }} />
         </div>
 
         <div className='column is-four-fifths'>
 
-          <div className='bookTitle'>
-            <h2>{this.props.title}</h2>
-          </div>
+          <h2 className='bookTitle'>{this.props.title}</h2>
           <h3 className='bookAuthor'> {this.props.author}</h3>
           <p className='bookShort'> {this.props.shortDescription}</p>
 

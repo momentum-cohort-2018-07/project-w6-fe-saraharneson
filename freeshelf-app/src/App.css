@@ -8,15 +8,21 @@ body {
   margin: 0 auto;
 }
 
+.App {
+  /* margin: 20px; */
+  line-height: 1.15rem;
+  font-size: .8rem;
+}
+
 .app-header {
   /* background-color: #222; */
-  height: 150px;
+  height: 100px;
   width: 100%;
   margin: 0 auto;
   /* position: relative;
   background-size: cover;
   background-position: center center; */
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 /* .app-header img {
@@ -28,7 +34,7 @@ body {
 .app-title {
   position: absolute;
   background-color: black;
-  padding: 20px 0 15px 0;
+  padding: 20px 0;
   width: 100%;
   text-align: center;
   color: white;
@@ -47,18 +53,11 @@ body {
   line-height: 1rem;
 } */
 
-.App {
-  /* text-align: center; */
-  /* margin: 20px; */
-  /* font-size: 1rem; */
-  line-height: 1.15rem;
-  font-size: .8rem;
-}
-
 .singleBook {
   display: block;
-  width: 90%;
-  margin: 24px 0 5px; 
+  /* width: 85%; */
+  margin: 24px;
+  background-color: aliceblue; 
 }
 
 /* .App-title {
@@ -67,19 +66,21 @@ body {
   line-height: 1.2rem;
 } */
 
-h2 {
+/* h2 {
   font-size: 1em;
   margin-bottom: 8px;
   line-height: 1.5rem;
-}
+} */
 
+/* 
 .App-intro {
   font-size: large;
-}
+} */
 
 .bookTitle {
   font-size: 1.5rem;
-  font-weight: bold;
+  margin-bottom: 8px;
+  line-height: 1.5rem;
 }
 
 .bookAuthor {
@@ -87,16 +88,16 @@ h2 {
   font-style: italic;
   font-weight: bold;
   letter-spacing: -.25px;
-  margin: 10px 0;
+  margin: 2px 0 8px 0;
 }
 
 .bookImage {
   float: right;
-  width: 80px;
+  width: 100px;
   /* border-right: 1px solid lightgray; */
   /* border-bottom: 1px solid lightgray; */
-  margin-top: 10px;
-  margin-left: 10px;
+  /* margin-top: 10px; */
+  margin-left: 15px;
 }
 
 .bookUrl {
@@ -113,7 +114,17 @@ h2 {
 }
 
 button {
-  margin: 10px 0;
+  margin: 10px 0 3px 0;
+  border-radius: 2px;
+  padding: 4px 6px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: .6rem;
+  letter-spacing: -.25px;
+}
+
+.bookUrl {
+  margin-top: 8px;
 }
 
 /* 
