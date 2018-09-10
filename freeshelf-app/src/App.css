@@ -9,13 +9,11 @@ body {
 }
 
 .App {
-  /* margin: 20px; */
   line-height: 1.15rem;
   font-size: .8rem;
 }
 
 .app-header {
-  /* background-color: #222; */
   height: 100px;
   width: 100%;
   margin: 0 auto;
@@ -55,7 +53,6 @@ body {
 
 .singleBook {
   display: block;
-  /* width: 85%; */
   margin: 24px;
   background-color: aliceblue; 
 }
@@ -94,15 +91,11 @@ body {
 .bookImage {
   float: right;
   width: 100px;
-  /* border-right: 1px solid lightgray; */
-  /* border-bottom: 1px solid lightgray; */
-  /* margin-top: 10px; */
   margin-left: 15px;
 }
 
 .bookUrl {
   font-size: .75rem;
-
 }
 
 .category {
@@ -127,9 +120,7 @@ button {
   margin-top: 8px;
 }
 
-/* 
-
-.singleBook
+/*  .singleBook
 .bookTitle
 .bookImage 
 .coverImageUrl
