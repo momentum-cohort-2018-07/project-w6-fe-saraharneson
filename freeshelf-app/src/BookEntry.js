@@ -12,6 +12,7 @@ class BookEntry extends Component {
       isExpanded: false,
       editingBook: false,
       bookToEditById: ''
+      // bookToEditById part was suggested by Liz, but I think I've got too many things going on.
     }
 
     this.handleClick = this.handleClick.bind(this)
@@ -24,7 +25,7 @@ class BookEntry extends Component {
     }))
   }
 
-editingBook(event) {
+editingBook(event, BookEntry) {
   bookToEdit = event.target.value
   this.setState(state => ({
     editingBook: true,
@@ -37,12 +38,10 @@ editingBook(event) {
   render () {
     if (this.state.editingBook) {
       return (
-        <BookEdit(this.state.bookToEdit) />
-        // check ^^^ syntax
+        <BookEdit { bookToEdit } />
+        // check ^^^ syntax, still have parsing error ... I think this has gotten too confused; need to consult with Clinton.
         
-        // const student = this.state.students.find(student => student.id === this.state.currentStudent)
-
-        // pass props to BookEdit component
+        //  +++ TO DO: pass props to BookEdit component
       )
     } else {
       return (
@@ -82,6 +81,6 @@ editingBook(event) {
 }
 export default BookEntry
 
-// at edit button I need to send the props to the component
+// +++ TO DO: at edit button I need to send the props to the component - still figuring out how to do this.
 
-// line 53 is new, making a button for the book editing conditional rendering
+//  +++ TO DO: make a button for book editing create form via conditional rendering

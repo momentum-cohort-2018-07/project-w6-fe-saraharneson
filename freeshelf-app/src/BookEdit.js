@@ -31,9 +31,8 @@ class BookEdit extends Component {
     // let { book } = this.props
     return (
       <form>
-        <input type='text' className='editField'>{this.state.title}</input>
+        <input type='text' className='input editField' value={this.state.title}>{this.state.title}</input>
       </form>
-
     )
   }
 }
