@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.App {
+  line-height: 1.15rem;
+  font-size: .8rem;
+}
+
+.app-header {
+  height: 100px;
+  width: 100%;
+  margin: 0 auto;
+  /* position: relative;
+  background-size: cover;
+  background-position: center center; */
+  /* overflow: hidden; */
+}
+
+/* .app-header img {
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+} */
+
+.app-title {
+  position: absolute;
+  background-color: black;
+  padding: 20px 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+  line-height: 3.75rem;
+  font-weight: 100;
+}
+
+/* .app-kicker-title {
+  padding: 0 0 5px 0;
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1rem;
+} */
+
+.singleBook {
+  display: block;
+  margin: 24px;
+  background-color: aliceblue; 
+}
+
+/* .App-title {
+  font-size: 1.25em;
+  margin-bottom: 8px;
+  line-height: 1.2rem;
+} */
+
+/* h2 {
+  font-size: 1em;
+  margin-bottom: 8px;
+  line-height: 1.5rem;
+} */
+
+/* 
+.App-intro {
+  font-size: large;
+} */
+
+.bookTitle {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+  line-height: 1.5rem;
+}
+
+.bookAuthor {
+  font-size: .8rem;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: -.25px;
+  margin: 2px 0 8px 0;
+}
+
+.bookImage {
+  float: right;
+  width: 100px;
+  margin-left: 15px;
+}
+
+.bookUrl {
+  font-size: .75rem;
+}
+
+.category {
+  display: inline;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: .8rem;
+  letter-spacing: -.25px;
+}
+
+button {
+  margin: 10px 0 3px 0;
+  border-radius: 2px;
+  padding: 4px 6px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: .6rem;
+  letter-spacing: -.25px;
+}
+
+.bookUrl {
+  margin-top: 8px;
+}
+
+/*  .singleBook
+.bookTitle
+.bookImage 
+.coverImageUrl
+.bookAuthor
+.bookShort
+.bookMoreInfo 
+  .bookUrl
+  
+.category */
