@@ -22,6 +22,10 @@ class App extends Component {
       })
   }
 
+  editBookEntry (book) {
+    request.put('http://localhost:4000/books')
+  }
+
   render () {
     return (
       <div className='App'>
